@@ -1,0 +1,8 @@
+# fixture: part of repo-cartographer's testdata/sample-repo, not a real project
+[project]
+name = "pulse"
+version = "0.1.0"
+requires-python = ">=3.11"
+
+[project.scripts]
+pulse = "app.main:main"
